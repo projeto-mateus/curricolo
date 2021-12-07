@@ -1,0 +1,55 @@
+.fundo_nav{
+    background-color: aqua;
+}
+.container{
+    color: #fff;
+}
+.menu{
+    margin-left: none;
+    margin-right: 100%;
+}
+.conteudo{
+    font-size: medium;
+    width: 400px ;
+    text-align: center;
+}
+.conteudo{
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-0.5 * var(--bs-gutter-x));
+    margin-left: calc(-0.5 * var(--bs-gutter-x));
+    width: auto ;
+    text-align: center;
+}
+.especialidade{
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 1.75rem);
+    padding-left: var(--bs-gutter-x, 1.75rem);
+    color: #fff;
+    background-color: #4F4F4F;
+}
+.tec{
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-0.5 * var(--bs-gutter-x));
+    margin-left: calc(-0.5 * var(--bs-gutter-x));
+    text-align: center;
+}
+h1{
+    color: aqua;
+}
+@media (min-width:768px) {
+    .menu{
+        margin-left: 41%;
+        flex-direction: row;
+
+    }
+    .conteudo{
+        font-size: medium;
+        width: 400px ;
+        text-align: center;
+    }
+}
+
